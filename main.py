@@ -20,7 +20,7 @@ if __name__ == "__main__":
     LOGIN = ""
     PASSWORD = ""
     VKURL = ""
-    session = vk_api.VkApi(token= "")
+    SESSION = vk_api.VkApi(token= "")
 
 def like():
     global i
